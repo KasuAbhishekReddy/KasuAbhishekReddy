@@ -128,7 +128,7 @@ Selected for an 8-week, fully remote product-and-engineering internship across 3
 ## 🔥 Contribution Streak
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=KasuAbhishekReddy&theme=dracula&hide_border=true&background=0D1117&ring=22c55e&fire=22c55e&currStreakLabel=22c55e" alt="contribution streak" />
+  <img src="https://streak-stats.demolab.com/?user=KasuAbhishekReddy&theme=dracula&hide_border=true&background=0D1117&ring=22c55e&fire=22c55e&currStreakLabel=22c55e&border_radius=6" alt="contribution streak" />
 </div>
 
 ## 🧠 Activity
