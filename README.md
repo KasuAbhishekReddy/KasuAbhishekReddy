@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://raw.githubusercontent.com/KasuAbhishekReddy/KasuAbhishekReddy/main/avatar.png" width="180" alt="Kasu Abhishek Reddy" />
+</div>
+
 <h1 align="center">Hi 👋, I'm Kasu Abhishek Reddy</h1>
 <h3 align="center">CSE undergrad at IIITDM Jabalpur • I build agentic AI systems and ship full-stack products</h3>
 
