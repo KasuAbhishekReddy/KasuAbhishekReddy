@@ -125,12 +125,7 @@ Selected for an 8-week, fully remote product-and-engineering internship across 3
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=KasuAbhishekReddy&show_icons=true&count_private=true&include_all_commits=true&theme=dracula&hide_border=true&bg_color=0D1117&title_color=22c55e&icon_color=22c55e" alt="github stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KasuAbhishekReddy&layout=compact&langs_count=8&theme=dracula&hide_border=true&bg_color=0D1117&title_color=22c55e" alt="top languages" />
-</div>
+## 🔥 Contribution Streak
 
 <div align="center">
   <img src="https://streak-stats.demolab.com/?user=KasuAbhishekReddy&theme=dracula&hide_border=true&background=0D1117&ring=22c55e&fire=22c55e&currStreakLabel=22c55e" alt="contribution streak" />
@@ -140,12 +135,6 @@ Selected for an 8-week, fully remote product-and-engineering internship across 3
 
 <div align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=KasuAbhishekReddy&theme=dracula&hide_border=true&bg_color=0D1117&color=22c55e&line=22c55e&point=ffffff" alt="activity graph" />
-</div>
-
-## 🏆 Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=KasuAbhishekReddy&theme=dracula&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
 </div>
 
 ---
