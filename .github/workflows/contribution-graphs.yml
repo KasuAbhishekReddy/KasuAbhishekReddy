@@ -28,22 +28,23 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            pacman-out/pacman-contribution-graph.svg
-            pacman-out/pacman-contribution-graph-dark.svg?gameTheme=github-dark
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          games: pacman
 
       - name: Collect outputs
         run: |
-          sudo mkdir -p dist
-          sudo cp -r snake-out/. dist/
-          sudo cp -r pacman-out/. dist/
-          sudo chown -R "$(id -u):$(id -g)" dist
-          ls -la dist
+          sudo chown -R "$(id -u):$(id -g)" "$GITHUB_WORKSPACE" || true
+          echo "--- svg files found ---"
+          find . -name '*.svg' -not -path './.git/*' | sort
+          mkdir -p site
+          for f in $(find . -name '*.svg' -not -path './.git/*' -not -path './site/*'); do cp "$f" site/; done
+          echo "--- site ---"
+          ls -la site
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: site
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
